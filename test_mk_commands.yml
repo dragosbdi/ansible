@@ -1,8 +1,6 @@
 ---
 
 - name: execute MikroTik CLI command
-  hosts: mikrotik_routers
-  connection: local
 
   tasks:
 
