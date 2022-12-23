@@ -3,7 +3,7 @@
   hosts: mikrotik
   gather_facts: false
   vars:
-    backup_dir: "/home/luca/network/backup"
+    backup_dir: "/mkbackups"
   tasks:
     - name: Export
       ansible.builtin.shell: >-
